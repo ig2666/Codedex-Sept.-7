@@ -1,0 +1,37 @@
+ph = int(input("You get to create your own liquid, called kojipi! To decide whether kojipi is acidic, neutral, or basic, enter in a whole number between 1 and 14."))
+if ph > 7:
+  print("Your liquid is acidic.")
+elif ph < 7:
+  print("Your liquid is basic.")
+else:
+  print("Your liquid is neutral.")
+
+grade = int(input("A. Knoy Ying is a very obnoxious person in your class. The teacher, Mrs. Knucklebottom, lets you choose his semester exam grade. Will you be nice to A. Knoy Ying? Or will you give him a terrible grade because he is irritating you? Enter hisgrade, ensuring it is a whole number between 0 and 100."))
+if grade >= 55:
+  print("Bob passed.")
+else:
+  print("Bob failed.")
+
+input("Type in a yes or no question for the magic 8 ball to answer.")
+import random
+num = random.randint(0,9)
+if num == 0:
+  print("Definitely.")
+elif num == 1:
+  print("My sources say no.")
+elif num == 2:
+  print("Very doubtful.")
+elif num == 3:
+  print("Probably not.")
+elif num == 4:
+  print("Yes, without a doubt.")
+elif num == 5:
+  print("Perhaps.")
+elif num == 6:
+  print("Most likely.")
+elif num == 7:
+  print("Ask again later.")
+elif num == 8:
+  print("Absolutely.")
+elif num == 9:
+  print("Flat out no.")
